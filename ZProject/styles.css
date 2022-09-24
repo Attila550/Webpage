@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+      background-color: #10151b;
+  }
+
+footer{
+  background: rgb(36 84 84);
+  color: white;
+  height: auto;
+  width: 100vw;
+  font-family: 'Poppins' sans-serif;
+  padding-top: 1px;
+  margin: 0;
+  width: 100%;
+}
+
+/*Navbar Menu*/
+
+.bg-gradient{
+  width: 100%;
+  background-image: linear-gradient(to right, #202e39, #0c1d24) !important;
+}
+
+.navbar .navbar-nav > li > a:hover{
+  color: #0f5132 !important;
+}
+
+.navbar .navbar-nav > li > a {
+  color:#ffc107 !important;
+  font-size: 25px;
+  }
+
+/*Banner s textom*/
+
+.home-banner {
+  background-image: url(img/bghero.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height:600px;
+color: rgb(222 235 255);
+}
+
+.home-banner h1{
+  font-size: 54px;
+    margin-top: 73px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-banner button{
+  text-align: center;
+  right: 0;
+}
+
+.home-banner h2{
+  font-size: 42px;
+  color: #ffc107;
+  text-align: center;
+}
+
+.home-banner p{
+  font-size: 22px;
+  margin: 5px;
+  padding-right: 25%;
+  width: auto;
+  text-align: left;
+}
+.teemoBN img{
+  width: 285px;
+  height: auto;
+ float: right;
+}
+
+.btn-customsize{
+  width: 65%;
+}
+@media only screen and (max-width: 855px) {
+
+  .home-banner h1{
+    font-size: 46px;
+    margin-top: 73px;
+    top: 20px;
+  }
+
+  .home-banner h2{
+  font-size: 27px;
+  color: #38fff5;
+  text-align: center;
+  }
+  
+  .home-banner p{
+    padding-right: 5%;
+      left: 0cm;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 11px;
+    text-align: left;
+    padding-bottom: 2px;
+  }   
+}
+
+@media only screen and (max-width: 600px) {
+
+  .home-banner h1{
+    font-size: 46px;
+    margin-top: 73px;
+    top: 20px;
+  }
+
+  .home-banner h2{
+  font-size: 27px;
+  color: #38fff5;
+  text-align: center;
+  }
+  
+  .home-banner p{
+    padding-right: 5%;
+      left: 0cm;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 11px;
+    text-align: left;
+    padding-bottom: 2px;
+  }
+  
+  .teemoBN img{
+    width: 230px;
+    height: auto;
+   float: right;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  
+  .teemoBN img{
+    width: 130px;
+    height: auto;
+   float: right;
+  }
+
+  .home-banner p{
+    padding-right: 5%;
+      left: 0cm;
+    font-size: 12px;
+    margin: auto;
+    margin-left: 11px;
+    text-align: left;
+    padding-bottom: 2px;
+  }
+    
+}
+
+/*texts - US part (Homepage)*/
+
+.texts{
+  color: #deebff;
+  background-color: #10151b;
+  border: red 2px;
+}
+
+.devpics img{
+width: 150px;
+height: 100px;
+border-radius: 100%;
+}
+
+/*Footer*/
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+   
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0 0.5rem 0;
+
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+
+.socials a i{
+  font-size: 1.5rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover{
+  color: #ff562c;  
+}
+
+.copyright{
+  text-align: center;
+  background: #10151b;
+  bottom: 0;
+}
+
+.copyright p{
+  margin: 0;
+}
+
+/*About page*/
+
+.about{
+  margin: 0;
+  background-color: #10151b;
+  color: #deebff;
+}
+
+.about h1{
+  margin-top: 72px;
+  text-align: center;
+}
+
+.about p{
+  margin: 0;
+}
+
+/*Champions page*/
+
+.Champs{
+  background-color: #10151b;
+}
+.Champs h1{
+  margin-top: 74px;
+  color: #deebff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 485px) {
+  .Champs h1{
+    margin-top: 30px;
+    color: #deebff;
+    text-align: center;
+  }
+}
+
+.container .carousel-caption h5{
+  background-color: #05516073;
+  font-size: 2.25rem;
+}
+
+.picsize img{
+  max-width: 500px;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.picsize h2{
+  color: #deebff;
+}
+
+@media only screen and (max-width: 485px) {
+  .picsize img{
+    max-width: 294px;
+    height: 219px;
+  }
+}
+
+.carousel{
+  width: -1px;
+    height: auto;
+    float: left;
+}
+
+.carousel .slide{
+  display: grid;
+  grid-row: 2;
+}
+
+@media only screen and (max-width: 655px) {
+  .carousel{
+    width: -1px;
+      height: auto;
+      float: left;
+  }
+
+  .container .carousel-caption h5{
+    background-color: #05516073;
+    font-size: 2.25rem;
+  }
+}
+
+.container {
+  color: #deebff; 
+}
+
+/*Forms (Kontakt page)*/
+
+form {
+  width: 100%;
+  max-width: 730px;
+  margin: 0 auto;
+  background-color: #202e39;
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #0f5132;
+  margin-bottom: 2px;
+  color: white;
+  margin-top: 40px;
+}
+
+.formstext{
+  margin-top: 85px;
+}
+.formstext p{
+  color: #deebff;
+  margin: 3px;
+}
+
+.subscription-wrapper a{
+  color: #deebff;
+  text-decoration: none;
+}
+.btn-customcolor{
+  background-color: #13ff90;
+  color: #000000;
+}
+
+/*Thank you page*/
+
+.thankyou {
+  color: #deebff;
+  margin-top: 80px;
+}
+
+.thankyouimage img{
+  width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .thankyouimage img{
+    width: 280px;
+  }
+}
